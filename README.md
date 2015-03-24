@@ -1,3 +1,3 @@
-# york-solutions.github.io
+# York Solutions, LLC
 
 Company site
