@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Choosing a Blog Platform"
-date:   2015-03-25
+date:   2015-03-24
 ---
 
 I decided to start create a company website and blog. I thought it would be easy. 
