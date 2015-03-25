@@ -1,13 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-03-24 21:44:37
-categories: jekyll update
+title:  "Choosing a Blog Platform"
+date:   2015-03-25
 ---
 
-I decided to start a programming blog. I thought it would be easy. I've started
-many other blogs in the past. [^1] Though this time my requirements would be a
-little bit different.
+I decided to start create a company website and blog. I thought it would be easy. 
+I've started many other blogs in the past. [^1] Though this time my requirements 
+would be a little bit different.
 
 1. Free, unless it's _really_ good
 2. Hosted
@@ -22,6 +21,12 @@ have to edit posts in HTML mode. And if I happened to switch into the non-HTML
 mode I would run the risk of Blogger messing up my formatting. Plus to get syntax
 highlighting I would have to embark on a scary process whose instructions always
 begin with "make a backup."
+
+## WordPress
+
+The WordPress community is excellent and you can make WordPress do anything.
+But I don't need everything, nor do I want to worry about hosting it myself
+or paying for hosting to get a simple blog with a few static pages.
 
 ## Ghost
 
@@ -38,14 +43,14 @@ account.
 
 Syntax highlighting is also not supported out of the box. I could add it by modifying
 the theme myself. But then I couldn't find a built in theme editor which leads
-to a clunk process: modify the theme, zip, upload, test, repeat.
+to a clunky process: modify the theme, zip, upload, test, repeat.
 
 ## GitHub
 
 Did you know GitHub was a blogging platform? [^2] I have vague memories of this
-being a big thing a few years ago. The fad has fizzled but the 
-[Jekyll-Bootstrap](http://jekyllbootstrap.com/) is alive and well. Jekyll? Ruby?
+being a big thing a few years ago. The fad has fizzled but 
+[Jekyll](http://jekyllrb.com/) is alive and well. Jekyll? Ruby?
 Would it be worth it? It met all of my requirements so I gave it a shot.
 
-[^1]: You can never have enough blogs.
+[^1]: Because you can never have enough blogs, right?
 [^2]: What can't GitHub do?
