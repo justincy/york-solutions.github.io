@@ -112,49 +112,49 @@
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
-    margin-left: -$spacing-unit / 2;
+    margin-left: -$spacing-unit-half;
     @extend %clearfix;
 }
 
 .footer-col {
     float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    margin-bottom: $spacing-unit-half;
+    padding-left: $spacing-unit-half;
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(35% - #{$spacing-unit-half});
+    width:         calc(35% - #{$spacing-unit-half});
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(20% - #{$spacing-unit-half});
+    width:         calc(20% - #{$spacing-unit-half});
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(45% - #{$spacing-unit-half});
+    width:         calc(45% - #{$spacing-unit-half});
 }
 
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(50% - #{$spacing-unit-half});
+        width:         calc(50% - #{$spacing-unit-half});
     }
 
     .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(100% - #{$spacing-unit-half});
+        width:         calc(100% - #{$spacing-unit-half});
     }
 }
 
 @include media-query($on-palm) {
     .footer-col {
         float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(100% - #{$spacing-unit-half});
+        width:         calc(100% - #{$spacing-unit-half});
     }
 }
 
@@ -240,7 +240,49 @@
 
 .footnotes {
   border-top: 1px dashed #999;
-  padding-top: 32px;
+  padding-top: $spacing-unit;
   font-size: small;
-  margin-top: 32px;
+  margin-top: $spacing-unit;
+}
+
+/**
+ * Portfolio
+ */
+ 
+.project-list {
+    overflow: auto;
+    margin: 0 -$spacing-unit-half;
+    margin-bottom: $spacing-unit;
+}
+ 
+.project {
+    display: block;
+    width: calc(50% - #{$spacing-unit});
+    margin: $spacing-unit-half;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-thumb {
+    width: 100%;
+}
+
+.project-title {
+    transition: max-height 0.8s;
+    transition-delay: 0;
+    position: absolute;
+    bottom: 0;
+    max-height: 0;
+    overflow: hidden;
+    background-color: rgba($background-color, .8);
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+    width: 100%;
+    font-size: 20px;
+}
+
+.project:hover .project-title {
+    max-height: 200px;
 }
