@@ -51,6 +51,8 @@ Did you know GitHub was a blogging platform? [^2] I have vague memories of this
 being a big thing a few years ago. The fad has fizzled but 
 [Jekyll](http://jekyllrb.com/) is alive and well. Jekyll? Ruby?
 Would it be worth it? It met all of my requirements so I gave it a shot.
+You can browse the [source code](https://github.com/york-solutions/york-solutions.github.io)
+for this website on [GitHub](https://github.com/york-solutions).
 
 [^1]: Because you can never have enough blogs, right?
 [^2]: What can't GitHub do?
