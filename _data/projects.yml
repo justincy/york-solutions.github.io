@@ -6,9 +6,9 @@
   url: http://andelinlivestock.com
   img: andelinlivestock.png
   
-- name: After The Beast
-  url: http://afterthebeast.com
-  img: afterthebeast.png
+#- name: After The Beast
+#  url: http://afterthebeast.com
+#  img: afterthebeast.png
   
 - name: RootsSearch
   url: https://chrome.google.com/webstore/detail/rootssearch/aolcffalbhpnojekmimmelebjchjmmgn?hl=en
