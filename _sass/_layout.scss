@@ -4,7 +4,7 @@
 .site-header {
     border-top: 5px solid $brand-color;
     border-bottom: 1px solid $grey-color-light;
-    background-color: $body-color;
+    background-color: #f0f0f0;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -12,8 +12,8 @@
 }
 
 .site-logo {
-    height: 45px;
-    margin: 5px;
+    height: 35px;
+    margin: 10px 10px 10px 0;
     float: left;
 }
 
@@ -236,4 +236,11 @@
             font-size: 18px;
         }
     }
+}
+
+.footnotes {
+  border-top: 1px dashed #999;
+  padding-top: 32px;
+  font-size: small;
+  margin-top: 32px;
 }
