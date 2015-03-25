@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Choosing a Blog Platform"
-date:   2015-03-25
+date:   2015-03-24
 ---
 
 I decided to start create a company website and blog. I thought it would be easy. 
-I've started many other blogs in the past. [^1] Though this time my requirements 
+I've started many other blogs in the past. But this time my requirements 
 would be a little bit different.
 
 1. Free, unless it's _really_ good
@@ -47,12 +47,11 @@ to a clunky process: modify the theme, zip, upload, test, repeat.
 
 ## GitHub
 
-Did you know GitHub was a blogging platform? [^2] I have vague memories of this
+Did you know GitHub was a blogging platform? [^1] I have vague memories of this
 being a big thing a few years ago. The fad has fizzled but 
 [Jekyll](http://jekyllrb.com/) is alive and well. Jekyll? Ruby?
 Would it be worth it? It met all of my requirements so I gave it a shot.
 You can browse the [source code](https://github.com/york-solutions/york-solutions.github.io)
 for this website on [GitHub](https://github.com/york-solutions).
 
-[^1]: Because you can never have enough blogs, right?
-[^2]: What can't GitHub do?
+[^1]: What can't GitHub do?
