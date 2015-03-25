@@ -18,3 +18,6 @@ kramdown:
   
 ga:
   account: 'UA-61161051-1'
+  
+disqus:
+  shortname: 'yorksolutions'
