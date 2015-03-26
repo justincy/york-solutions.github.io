@@ -8,8 +8,8 @@ layout: default
   <div class="project-list">
     {% for project in site.data.projects %}
     <a class="project" href="{{ project.url }}" target="_blank">
-      <img class="project-thumb" src="{{ site.baseurl }}/assets/img/projects/{{ project.img }}">
       <div class="project-title">{{ project.name }}</div>
+      <img class="project-thumb" src="{{ site.baseurl }}/assets/img/projects/{{ project.img }}">
     </a>
     {% endfor %}
   </div>
