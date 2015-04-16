@@ -249,45 +249,30 @@
  * Portfolio
  */
  
-.project-list {
-    overflow: auto;
-    margin: 0 -$spacing-unit-half;
-    padding-bottom: $spacing-unit;
-}
- 
 .project {
-    display: block;
-    width: calc(50% - #{$spacing-unit});
-    margin: $spacing-unit-half;
-    float: left;
-    position: relative;
-    overflow: hidden;
+    margin: $spacing-unit 0;
     transition: all .5s;
-}
-
-.project:hover {
-    transform: scale(1.05);
+    overflow: auto;
 }
 
 .project-thumb {
-    width: 100%;
+    width: 50%;
+    float: left;
+    margin: 0 $spacing-unit $spacing-unit 0;
 }
 
 .project-title {
-    position: absolute;
-    bottom: 0;
-    background-color: #222;
-    text-align: center;
-    padding: 5px;
-    width: 100%;
+    padding: 5px 0;
     font-size: 20px;
-    display: none;
 }
 
 @include media-query($on-palm) {
-    .project {
+    .project-thumb {
         float: none;
-        width: -webkit-calc(100% - #{$spacing-unit});
-        width:         calc(100% - #{$spacing-unit});
+        width: 100%;
+    }
+    
+    .project {
+        overflow: initial;
     }
 }

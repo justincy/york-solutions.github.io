@@ -7,10 +7,11 @@ layout: default
   <h2>Portfolio</h2>
   <div class="project-list">
     {% for project in site.data.projects %}
-    <a class="project" href="{{ project.url }}" target="_blank">
-      <div class="project-title">{{ project.name }}</div>
+    <div class="project">
+      <div class="project-title"><a href="{{ project.url }}" target="_blank">{{ project.name }}</a></div>
       <img class="project-thumb" src="{{ site.baseurl }}/assets/img/projects/{{ project.img }}">
-    </a>
+      <div class="project-role">{{ project.role | markdownify }}</div>
+    </div>
     {% endfor %}
   </div>
 
