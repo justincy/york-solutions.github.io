@@ -24,15 +24,16 @@
   img: afterthebeast.png
   role: >
     After The Beast had an existing design which we were asked to implement as 
-    static site with a little JavaScript. We worked closely with the designer to
+    a static site with a little JavaScript. We worked closely with the designer to
     make all fonts, sizes, and spacing match exactly as they wanted it.
   
 - name: Arastan Photography
   url: http://www.arastanphotography.com/
   img: arastanphotography.png
   role: >
-    We updated the existing site hosted on Weebly to move the navigation from
-    the top to the left and make page content fill the remaining space on the page.
+    We updated the existing site hosted on Weebly. We were asked to move the 
+    navigation from he top of the page to the left and make the page content 
+    fill the remaining width of the page.
   
 #- name: RootsSearch
 #  url: https://chrome.google.com/webstore/detail/rootssearch/aolcffalbhpnojekmimmelebjchjmmgn?hl=en
