@@ -9,7 +9,7 @@ twitter_username:
 github_username:  'york-solutions'
 phone: '(417) 319-4160'
 
-# Build settings
+
 markdown: kramdown
 highlighter: pygments
 
