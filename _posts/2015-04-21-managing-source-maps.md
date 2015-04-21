@@ -18,10 +18,12 @@ The browser follows the `sourceMappingURL` to download the source map which mean
 the map needs to be available. The best idea is to store the source map in the
 same directory as the minified file which is what most (if not all) JS libs expect.
 
-3. The source map points to the original source (which also must be available
-   somewhere) and contains a mapping from the minified code to the original.
+The source map points to the original source (which also must be available
+somewhere) and contains the mapping from the minified code to the original. This
+mapping enables you to debug the minified version in the browser while viewing
+the original source code.
 
-This puts a few undesirable restrictions on us.
+The way source maps are implemented puts two undesirable restrictions on us.
 
 ### 1. Manage two additional files per library
 
