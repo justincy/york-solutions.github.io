@@ -21,7 +21,7 @@ same directory as the minified file which is what most (if not all) JS libs expe
 The source map points to the original source (which also must be available
 somewhere) and contains the mapping from the minified code to the original. This
 mapping enables you to debug the minified version in the browser while viewing
-the original source code.
+the original (and hopefully readable) source code.
 
 The way source maps are implemented puts two undesirable restrictions on us.
 
