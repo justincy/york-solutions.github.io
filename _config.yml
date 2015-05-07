@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   We can help with creating new websites, updating existing websites, enhancing SEO, 
   setting up blogs, and many other tasks related to managing your website.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://york-solutions.io" # the base hostname & protocol for your site
+url: "http://yorksolutions.io" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  'york-solutions'
 phone: '(417) 319-4160'
