@@ -9,16 +9,6 @@
     and [fs-check](https://github.com/genealogysystems/fs-check)
     and make significant contributions to the [FamilySearch JavaScript SDK](https://github.com/rootsdev/familysearch-javascript-sdk).
   
-- name: Andelin Livestock
-  url: http://andelinlivestock.com
-  img: andelinlivestock.png
-  role: >
-    We moved an existing website built on Django to one hosted on 
-    [Shopify](http://www.shopify.com/). Shopify offered hosting that
-    we didn't have to manage, a store and payment system which supported BitCoin
-    as a payment method (a requirement of the project), and the ability to add
-    custom pages to the website.
-  
 - name: After The Beast
   url: http://afterthebeast.com
   img: afterthebeast.png
@@ -33,7 +23,18 @@
   role: >
     We updated the existing site hosted on Weebly. We were asked to move 
     navigation from the top  to the left and make the content 
-    fill the remaining width of the page.
+    fill the remaining width of the page. We also helped enhance their
+    [SEO](http://en.wikipedia.org/wiki/Search_engine_optimization).
+  
+- name: Andelin Livestock
+  url: http://andelinlivestock.com
+  img: andelinlivestock.png
+  role: >
+    We moved an existing website built on Django to one hosted on 
+    [Shopify](http://www.shopify.com/). Shopify offered hosting that
+    we didn't have to manage, a store and payment system which supported BitCoin
+    as a payment method (a requirement of the project), and the ability to add
+    custom pages to the website.
   
 #- name: RootsSearch
 #  url: https://chrome.google.com/webstore/detail/rootssearch/aolcffalbhpnojekmimmelebjchjmmgn?hl=en
