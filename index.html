@@ -18,5 +18,19 @@ layout: default
     </div>
     {% endfor %}
   </div>
+  
+  <h2>Projects</h2>
+  <div class="subtitle">Open source projects we have contributed to.</div>
+  <div class="libraries">
+    {% for library in site.data.libraries %}
+    <div class="library">
+      <img class="github-mark" src="/assets/img/GitHub-Mark-32px.png">
+      <div class="library-name">
+        <a href="https://github.com/{{library.url}}" target="_blank">{{library.name}}</a>
+      </div>
+      <p class="library-description">{{library.description}}</p>
+    </div>
+    {% endfor %}
+  </div>
 
 </div>

@@ -1,0 +1,19 @@
+- name: FamilySearch JavaScript SDK
+  url: rootsdev/familysearch-javascript-sdk
+  description: A JavaScript libary for using the FamilySearch public API.
+
+- name: fs-traversal
+  url: genealogysystems/fs-traversal
+  description: A JavaScript traversal framework for the FamilySearch Family Tree using the visitor pattern.
+  
+- name: fs-check
+  url: genealogysystems/fs-check
+  description: Find Research Opportunities in the FamilySearch Family Tree.
+  
+- name: WikiTree JavaScript SDK
+  url: justincy/wikitree-javascript-sdk
+  description: Javascript library for interacting with the WikiTree API.
+  
+- name: async
+  url: caolan/async
+  description: Async utilities for node and the browser.
