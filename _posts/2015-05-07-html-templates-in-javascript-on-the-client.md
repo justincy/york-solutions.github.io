@@ -3,6 +3,7 @@ layout: post
 title:  "Using HTML Templates with JavaScript on the Client"
 date:   2015-05-07
 ---
+
 Generating HTML in JavaScript can be painful. It quickly gets out of control
 when building any advanced UI. 
 
