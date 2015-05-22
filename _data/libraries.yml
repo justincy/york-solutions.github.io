@@ -14,6 +14,10 @@
   url: justincy/wikitree-javascript-sdk
   description: Javascript library for interacting with the WikiTree API.
   
-- name: async
-  url: caolan/async
-  description: Async utilities for node and the browser.
+- name: gensearch
+  url: genealogysystems/gensearch
+  description: Generate search links for genealogy websites.
+  
+- name: genscrape
+  url: rootsdev/genscrape
+  description: Retrieve person data from genealogy websites.
