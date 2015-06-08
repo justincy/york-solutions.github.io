@@ -15,7 +15,7 @@
   description: Javascript library for interacting with the WikiTree API.
   
 - name: gensearch
-  url: genealogysystems/gensearch
+  url: rootsdev/gensearch
   description: Generate search links for genealogy websites.
   
 - name: genscrape
