@@ -25,31 +25,49 @@ of writing, they include 5 examples:
 Visit [the repo][my-pedigree-examples] to learn more about the implementation details.
 Here, I want to share my thoughts about whether D3 is a good tool for drawing pedigrees.
 
-1. [D3][d3] is a beautiful and powerful library. It's too powerful for most people
+### Pros
+
+1. D3 has a built-in [tree layout]. It's defaults need to be tweaked a little for
+rendering pedigrees, but it still works great.
+
+2. Drawing the connecting lines is trivial in SVG.
+
+3. Startup time for a basic pedigree is very small.
+
+### Cons
+
+1. [D3][d3] is too powerful for most people
 to tame. Without being able to copy and paste from the enormous library of examples,
 most users would not be able to get anything done[^1]. The moment you need to modify
-anything, you have to become an expert in both SVG and D3. This will limit the
-usefulness of the examples I created.
+anything, you have to become an expert in both SVG and D3.
 
 2. SVG is great for shapes with a little bit of text. But pedigrees are lots of
 text with a few shapes. SVG does not support text wrapping nor inline styles (the
 ability to style one word, character, or phrase different than the other text
-around it). Some browsers allow you to embed HTML in a `foreignObject` so that
-you can use HTML and CSS to style text, which has all the tools we need, but 
-support is partial for those browsers that allow it while no version of IE 
-supports it. That renders the `foreignObject` useless for the majority of production
-projects.
+around it). You can mimic those feature by adding different text nodes and calculating
+their position, but it's not ideal. Some browsers allow you to embed HTML in a 
+`foreignObject` so that you can use HTML and CSS to style text, which has all 
+the tools we need, butsupport is partial for those browsers that allow it while
+no version of IE supports it at all. That renders the `foreignObject` useless 
+for the majority of production projects.
 
-3. The complexity increases by orders of magnitude if you want to make the D3
-visual dynamic and interactive (in our case expand and collapse).
+3. The complexity increases by orders of magnitude if you want to make the pedigree
+dynamic and interactive (in our case to expand and collapse).
 
-4. D3 does lend itself well to an OOP approach. This is why the examples are 
+4. D3 does not lend itself well to an OOP approach. This is why the examples are 
 generally one large wall of code.
 
-[More to come about what a better alternative is...]
+### Conclusion
+
+If you just need a basic pedigree display than D3 is great. You'll end up spending
+most of your time getting your data into the proper format than you will configuring
+the tree. However, if you need anything more advanced then I would recommend just
+using HTML. Ancestry, FamilySearch, and findmypast all use HTML for their pedigrees.
+MyHeritage is the only large tree website I know of that uses SVG and they didn't
+use D3 to do it.
 
 [d3]: http://d3js.org/
 [d3-pedigree-example]: http://bl.ocks.org/mbostock/2966094
 [my-pedigree-examples]: https://github.com/justincy/d3-pedigree-examples
 
-[^1]: I'm not sure I could've done anything either.
+[^1]: I don't think I could've done anything either without those examples.
