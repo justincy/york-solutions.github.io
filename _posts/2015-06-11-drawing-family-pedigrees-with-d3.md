@@ -47,7 +47,7 @@ ability to style one word, character, or phrase different than the other text
 around it). You can mimic those feature by adding different text nodes and calculating
 their position, but it's not ideal. Some browsers allow you to embed HTML in a 
 `foreignObject` so that you can use HTML and CSS to style text, which has all 
-the tools we need, butsupport is partial for those browsers that allow it while
+the tools we need, but support is partial for those browsers that allow it while
 no version of IE supports it at all. That renders the `foreignObject` useless 
 for the majority of production projects.
 
