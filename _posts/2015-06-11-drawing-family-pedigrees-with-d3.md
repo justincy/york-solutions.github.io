@@ -6,7 +6,7 @@ date:   2015-06-11
 
 I recently set out to learn how to draw family pedigrees with [D3][d3]. Their
 website is full of examples including an actual [pedigree chart][d3-pedigree-example].
-That example was much to simple for my requirements. I wanted it to be styled
+That example was much too simple for my requirements. I wanted it to be styled
 like most pedigrees in software with a box around the person. I also wanted it
 to expand, collapse, pan, and zoom. As I perused other D3 examples, I had difficulty 
 mixing and matching techniques and separating the basics from the fancy stylistic 
