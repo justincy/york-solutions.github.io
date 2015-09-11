@@ -1,18 +1,25 @@
 - name: Find-A-Record
   url:  https://www.findarecord.com
   img:  findarecord.png
-  role: >
+  description: >
     Justin York was one of the Co-Founders of Find-A-Record and is now the primary
     developer. The website runs on [node.js](https://nodejs.org/)
     and is hosted in the [Amazon cloud](http://aws.amazon.com/).
     We maintain the open source libraries [fs-traversal](https://github.com/genealogysystems/fs-traversal)
     and [fs-check](https://github.com/genealogysystems/fs-check)
     and make significant contributions to the [FamilySearch JavaScript SDK](https://github.com/rootsdev/familysearch-javascript-sdk).
+    
+- name: RootsSearch
+  url:  https://rootssearch.io
+  img:  rootssearch.png
+  description: >
+    RootsSearch is a Google Chrome extension that helps you search for
+    similar genealogy records across popular genealogy websites.
   
 - name: After The Beast
   url: http://afterthebeast.com
   img: afterthebeast.png
-  role: >
+  description: >
     After The Beast had an existing design which we were asked to implement as 
     a static site with a little JavaScript. We worked closely with the designer to
     make all fonts, sizes, and spacing match exactly as they wanted it.
@@ -20,7 +27,7 @@
 - name: Arastan Photography
   url: http://www.arastanphotography.com/
   img: arastanphotography.png
-  role: >
+  description: >
     We updated the existing site hosted on Weebly. We were asked to move 
     navigation from the top  to the left and make the content 
     fill the remaining width of the page. We also helped enhance their
@@ -29,13 +36,9 @@
 - name: Andelin Livestock
   url: http://andelinlivestock.com
   img: andelinlivestock.png
-  role: >
+  description: >
     We moved an existing website built on Django to one hosted on 
     [Shopify](http://www.shopify.com/). Shopify offered hosting that
     we didn't have to manage, a store and payment system which supported BitCoin
     as a payment method (a requirement of the project), and the ability to add
     custom pages to the website.
-  
-#- name: RootsSearch
-#  url: https://chrome.google.com/webstore/detail/rootssearch/aolcffalbhpnojekmimmelebjchjmmgn?hl=en
-#  img: rootssearch.png

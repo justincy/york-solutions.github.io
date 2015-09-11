@@ -1,6 +1,0 @@
-- name: RootsSearch
-  url:  http://rootssearch.io
-  img:  rootssearch.png
-  description: >
-    RootsSearch is a Google Chrome extension that helps you search for
-    similar genealogy records across popular genealogy websites.
