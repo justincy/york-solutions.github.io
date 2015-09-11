@@ -2,7 +2,7 @@
   url:  https://www.findarecord.com
   img:  findarecord.png
   description: >
-    The website runs on [node.js](https://nodejs.org/)
+    [Find-A-Record](https://www.findarecord.com) runs on [node.js](https://nodejs.org/)
     and is hosted in the [Amazon cloud](http://aws.amazon.com/).
     We maintained the open source libraries [fs-traversal](https://github.com/genealogysystems/fs-traversal)
     and [fs-check](https://github.com/genealogysystems/fs-check)
@@ -12,14 +12,23 @@
   url:  https://rootssearch.io
   img:  rootssearch.png
   description: >
-    RootsSearch is a Google Chrome extension that helps you search for
-    similar genealogy records across popular genealogy websites.
+    [RootsSearch](https://rootssearch.io) is a Google Chrome extension that helps you search for
+    genealogy records across popular genealogy websites.
+    
+- name: WikiTree
+  url:  http://www.wikitree.com/
+  img:  wikitree.png
+  description: >
+    We helped [WikiTree](http://www.wikitree.com/) create a utility for establishing connections between
+    persons in WikiTree and persons in the FamilySearch tree. We also developed
+    an interactive pedigree view using [D3.js](http://d3js.org/) and enhanced
+    their JavaScript SDK.
   
 - name: After The Beast
   url: http://afterthebeast.com
   img: afterthebeast.png
   description: >
-    After The Beast had an existing design which we were asked to implement as 
+    [After The Beast](http://afterthebeast.com) had an existing design which we were asked to implement as 
     a static site with a little JavaScript. We worked closely with the designer to
     make all fonts, sizes, and spacing match exactly as they wanted it.
   
@@ -27,17 +36,17 @@
   url: http://www.arastanphotography.com/
   img: arastanphotography.png
   description: >
-    We updated the existing site hosted on Weebly. We were asked to move 
-    navigation from the top  to the left and make the content 
-    fill the remaining width of the page. We also helped enhance their
-    [SEO](http://en.wikipedia.org/wiki/Search_engine_optimization).
+    [Arastan Photography](Arastan Photography) wanted an existing website hosted
+    on Weebly to be enhanced. We were asked to move 
+    navigation from the top to the left and make the content 
+    fill the remaining width of the page. We also consulted on enhancing their SEO.
   
-- name: Andelin Livestock
-  url: http://andelinlivestock.com
-  img: andelinlivestock.png
-  description: >
-    We moved an existing website built on Django to one hosted on 
-    [Shopify](http://www.shopify.com/). Shopify offered hosting that
-    we didn't have to manage, a store and payment system which supported BitCoin
-    as a payment method (a requirement of the project), and the ability to add
-    custom pages to the website.
+#- name: Andelin Livestock
+#  url: http://andelinlivestock.com
+#  img: andelinlivestock.png
+#  description: >
+#    We moved an existing website built on Django to one hosted on 
+#    [Shopify](http://www.shopify.com/). Shopify offered hosting that
+#    we didn't have to manage, a store and payment system which supported BitCoin
+#    as a payment method (a requirement of the project), and the ability to add
+#    custom pages to the website.
