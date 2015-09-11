@@ -2,12 +2,11 @@
   url:  https://www.findarecord.com
   img:  findarecord.png
   description: >
-    Justin York was one of the Co-Founders of Find-A-Record and is now the primary
-    developer. The website runs on [node.js](https://nodejs.org/)
+    The website runs on [node.js](https://nodejs.org/)
     and is hosted in the [Amazon cloud](http://aws.amazon.com/).
-    We maintain the open source libraries [fs-traversal](https://github.com/genealogysystems/fs-traversal)
+    We maintained the open source libraries [fs-traversal](https://github.com/genealogysystems/fs-traversal)
     and [fs-check](https://github.com/genealogysystems/fs-check)
-    and make significant contributions to the [FamilySearch JavaScript SDK](https://github.com/rootsdev/familysearch-javascript-sdk).
+    and made significant contributions to the [FamilySearch JavaScript SDK](https://github.com/rootsdev/familysearch-javascript-sdk).
     
 - name: RootsSearch
   url:  https://rootssearch.io
