@@ -3,13 +3,13 @@ title: York Solutions, LLC
 subtitle: Website Development in Monett, Missouri
 email: justin@yorksolutions.io
 description: > # this means to ignore newlines until "baseurl:"
-  Experts in custom website development serving the Monett, Missouri area. 
-  We can help with creating new websites, updating existing websites, enhancing SEO, 
-  setting up blogs, and many other tasks related to managing your website.
+  Justin York is a full-stack web developer based in Southwest Missouri. He has a love for JavaScript and a unique expertise in using the FamilySearch API.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yorksolutions.io" # the base hostname & protocol for your site
 twitter_username: 
-github_username:  'york-solutions'
+github_username:  
+  - 'justincy'
+  - 'york-solutions'
 phone: '(417) 319-4160'
 
 markdown: kramdown
