@@ -19,9 +19,9 @@
   url:  http://www.wikitree.com/
   img:  wikitree.png
   description: >
-    We helped [WikiTree](http://www.wikitree.com/) create a utility for establishing connections between
-    persons in WikiTree and persons in the FamilySearch tree. We also developed
-    an interactive pedigree view using [D3.js](http://d3js.org/) and enhanced
+    We helped [WikiTree](http://www.wikitree.com/) create a utility for establishing
+    links to persons in the FamilySearch tree. We also developed
+    an interactive pedigree view using [D3.js](http://d3js.org/) and upgraded
     their JavaScript SDK.
   
 - name: After The Beast
