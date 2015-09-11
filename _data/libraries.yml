@@ -10,10 +10,6 @@
   url: genealogysystems/fs-check
   description: Find Research Opportunities in the FamilySearch Family Tree.
   
-- name: WikiTree JavaScript SDK
-  url: justincy/wikitree-javascript-sdk
-  description: Javascript library for interacting with the WikiTree API.
-  
 - name: gensearch
   url: rootsdev/gensearch
   description: Generate search links for genealogy websites.
