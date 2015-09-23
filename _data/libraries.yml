@@ -1,6 +1,10 @@
 - name: FamilySearch JavaScript SDK
   url: rootsdev/familysearch-javascript-sdk
   description: A JavaScript libary for using the FamilySearch public API.
+  
+- name: D3 Pedigree Examples
+  url: justincy/d3-pedigree-examples
+  description: Examples of how to create family pedigrees with D3.
 
 - name: fs-traversal
   url: genealogysystems/fs-traversal
