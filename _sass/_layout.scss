@@ -239,10 +239,10 @@
 }
 
 .footnotes {
-  border-top: 1px dashed #999;
-  padding-top: $spacing-unit;
-  font-size: small;
-  margin-top: $spacing-unit;
+    border-top: 1px dashed #999;
+    padding-top: $spacing-unit;
+    font-size: small;
+    margin-top: $spacing-unit;
 }
 
 /**
@@ -250,30 +250,42 @@
  */
  
 .home h2 {
-  margin-top: $spacing-unit;
+    margin-top: $spacing-unit;
 }
  
 .subtitle {
-  color: #777;
-  font-size: 16px;
-  margin-top: -15px;
-  margin-bottom: 30px;
+    color: #777;
+    font-size: 16px;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.project-list {
+    overflow: auto;
+    margin: 0 -$spacing-unit-half;
 }
  
 .project {
     margin: $spacing-unit-half 0;
-    overflow: auto;
+    float: left;
+    width: calc(50% - #{$spacing-unit});
+    margin: $spacing-unit-half;
 }
 
-.project-thumb {
-    width: 50%;
-    float: left;
-    margin-right: $spacing-unit;
+.project:nth-child(odd){
+    clear: left;
 }
 
 .project-title {
     padding: 5px 0;
     font-size: 20px;
+    display: none;
+}
+
+.project-thumb {
+    background-color: #fff;
+    margin-bottom: $spacing-unit-half;
+    border: 1px solid $grey-color-light;
 }
 
 @include media-query($on-palm) {
