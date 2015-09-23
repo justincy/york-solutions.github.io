@@ -1,3 +1,24 @@
+- name: FamilySearch
+  url: https://familysearch.org
+  img: familysearch.png
+  description: >
+    [FamilySearch](https://familysearch.org) asked us to enhance both their
+    [PHP](https://github.com/FamilySearch/gedcomx-php) and [JavaScript](https://github.com/FamilySearch/familysearch-javascript-sdk) SDKs.
+    That included adding new features, simplyfing the interface, enhancing documentation,
+    developing sample apps, and creating a [utility](https://github.com/FamilySearch/sandbox-data-copy)
+    for loading data into their sandbox environment. We also began work on
+    [their collection](https://github.com/fs-webcomponents) of 
+    [Polymer](https://www.polymer-project.org/1.0/) based [web components](http://webcomponents.org/).
+
+- name: WikiTree
+  url:  http://www.wikitree.com
+  img:  wikitree.png
+  description: >
+    We helped [WikiTree](http://www.wikitree.com/) create a utility for establishing
+    links to persons in the FamilySearch tree. We also developed
+    an interactive pedigree view using [D3.js](http://d3js.org/) and upgraded
+    their JavaScript SDK.
+  
 - name: Find-A-Record
   url:  https://www.findarecord.com
   img:  findarecord.png
@@ -15,15 +36,6 @@
     [RootsSearch](https://rootssearch.io) is a Google Chrome extension that helps you search for
     genealogy records across popular genealogy websites.
     
-- name: WikiTree
-  url:  http://www.wikitree.com/
-  img:  wikitree.png
-  description: >
-    We helped [WikiTree](http://www.wikitree.com/) create a utility for establishing
-    links to persons in the FamilySearch tree. We also developed
-    an interactive pedigree view using [D3.js](http://d3js.org/) and upgraded
-    their JavaScript SDK.
-  
 - name: After The Beast
   url: http://afterthebeast.com
   img: afterthebeast.png
