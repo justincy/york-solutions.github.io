@@ -7,6 +7,13 @@ layout: default
   <h1>Web Development in Southwest Missouri</h1>
   
   <p>{{site.description}}</p>
+  
+  <h2>Services</h2>
+  <ul class="services">
+    {% for service in site.data.services %}
+    <li><strong>{{ service.name }}</strong> - {{ service.description | markdownify }}</li>
+    {% endfor %}
+  </ul>
 
   <h2>Portfolio</h2>
   <div class="subtitle">A selection of projects we have worked on.</div>

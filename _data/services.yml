@@ -1,0 +1,20 @@
+- name: Websites
+  description: Create a new website or enhance an existing website.
+
+- name: Blogs
+  description: Setup a new blog or redesign an existing blog.
+
+- name: Social media
+  description: Manage social media accounts and consult on their effective use.
+  
+- name: SEO
+  description: Search Engine Optimization makes your website easier to find on search engines.
+    
+- name: E-commerce
+  description: Setup an online store for your business.
+  
+- name: Analytics
+  description: Track statistics on who visits your website.
+
+- name: Email
+  description: Setup and manage your business email.

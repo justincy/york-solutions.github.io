@@ -3,7 +3,7 @@ title: York Solutions, LLC
 subtitle: Website Development in Monett, Missouri
 email: justin@yorksolutions.io
 description: > # this means to ignore newlines until "baseurl:"
-  Justin York is a full-stack web developer based in Southwest Missouri. He has a love for JavaScript and a unique expertise in using the FamilySearch API.
+  Justin York is a full-stack web developer based in Monett, Missouri. He has a love for JavaScript and a unique expertise in using the FamilySearch API.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yorksolutions.io" # the base hostname & protocol for your site
 twitter_username: 
