@@ -292,14 +292,9 @@
     border: 1px solid $grey-color-light;
 }
 
-@include media-query($on-palm) {
-    .project-thumb {
-        float: none;
-        width: 100%;
-    }
-    
+@include media-query(500px) {
     .project {
-        overflow: initial;
+        width: initial;
     }
 }
 
