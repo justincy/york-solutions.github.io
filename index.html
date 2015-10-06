@@ -11,7 +11,7 @@ layout: default
   <h2>Services</h2>
   <ul class="services">
     {% for service in site.data.services %}
-    <li><strong>{{ service.name }}</strong> - {{ service.description | markdownify }}</li>
+    <li><strong>{{ service.name }}</strong> - {{ service.description }}</li>
     {% endfor %}
   </ul>
 
