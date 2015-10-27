@@ -36,22 +36,22 @@
     [RootsSearch](https://rootssearch.io) is a Google Chrome extension that helps you search for
     genealogy records across popular genealogy websites.
     
-- name: After The Beast
-  url: http://afterthebeast.com
-  img: afterthebeast.png
-  description: >
-    [After The Beast](http://afterthebeast.com) had an existing design which we were asked to implement as 
-    a static site with a little JavaScript. We worked closely with the designer to
-    make all fonts, sizes, and spacing match exactly as they wanted it.
+# - name: After The Beast
+#   url: http://afterthebeast.com
+#   img: afterthebeast.png
+#   description: >
+#     [After The Beast](http://afterthebeast.com) had an existing design which we were asked to implement as 
+#     a static site with a little JavaScript. We worked closely with the designer to
+#     make all fonts, sizes, and spacing match exactly as they wanted it.
   
-- name: Arastan Photography
-  url: http://www.arastanphotography.com/
-  img: arastanphotography.png
-  description: >
-    [Arastan Photography](http://www.arastanphotography.com/) wanted an existing website hosted
-    on Weebly to be enhanced. We were asked to move 
-    navigation from the top to the left and make the content 
-    fill the remaining width of the page. We also consulted on enhancing their SEO.
+# - name: Arastan Photography
+#   url: http://www.arastanphotography.com/
+#   img: arastanphotography.png
+#   description: >
+#     [Arastan Photography](http://www.arastanphotography.com/) wanted an existing website hosted
+#     on Weebly to be enhanced. We were asked to move 
+#     navigation from the top to the left and make the content 
+#     fill the remaining width of the page. We also consulted on enhancing their SEO.
   
 #- name: Andelin Livestock
 #  url: http://andelinlivestock.com
