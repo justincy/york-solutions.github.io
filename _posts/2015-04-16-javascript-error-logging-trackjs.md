@@ -20,12 +20,12 @@ page, just like other JavaScript tracking libraries such as [Google Analytics][g
 TrackJS handles the rest automatically for you. Review the [documentation][docs] for
 more details on how it works and what customization options are available.
 
-{% highlight js %}
+```html
 <!-- BEGIN TRACKJS -->
 <script type="text/javascript">window._trackJs = { token: 'YOUR_TOKEN' };</script>
 <script type="text/javascript" src="//d2zah9y47r7bi2.cloudfront.net/releases/current/tracker.js" crossorigin="anonymous"></script>
 <!-- END TRACKJS -->
-{% endhighlight %}
+```
 
 TrackJS immediately began providing us with useful insight into errors that our
 users were seeing, such as exceptions thrown when trying to use local storage

@@ -11,14 +11,14 @@ each entry has a pointer to both the next and the previous entry. However,
 JSON does not support circular references. If you try to convert an object with
 circular references into JSON you will get a type error.
 
-{% highlight js %}
+```js
 var a = {};
 var b = {friend: a};
 a.friend = b;
 JSON.stringify(a);
 
 > TypeError: Converting circular structure to JSON
-{% endhighlight %}
+```
 
 I ran into this error while trying to serialize objects from the
 [FamilySearch JavaScript SDK][fs-sdk]. Being one of the major contributors to
@@ -38,14 +38,14 @@ function as its second argument.
 Knowing that the references to the SDK internals were always prefixed with a `$`,
 I could easily filter them out like this:
 
-{% highlight js %}
+```js
 JSON.stringify(object, function(key, value){
   if(key.indexOf('$') === 0){
     return;
   }
   return value;
 });
-{% endhighlight %}
+```
 
 It was nice to know I could do that, but it was too hacky; it only worked because 
 I knew some of the internals of the SDK. I wanted a solution that worked without
@@ -64,7 +64,7 @@ named [toJSON][tojson].
 Now I can add the following code to the SDK and make it easy for all users of 
 the SDK to seralize.
 
-{% highlight js %}
+```js
 FS.BaseClass.prototype.toJSON = function(){
   var obj = {};
   for(var a in this){
@@ -74,7 +74,7 @@ FS.BaseClass.prototype.toJSON = function(){
   }
   return obj;
 };
-{% endhighlight %}
+```
 
 [fs-sdk]: https://github.com/rootsdev/familysearch-javascript-sdk
 [double-list]: http://en.wikipedia.org/wiki/Doubly_linked_list

@@ -17,7 +17,7 @@ hours trying different methods of running postgres commands from the CLI and
 battling database user permissions (both for authentication and db access rights)
 I ended up with this:
 
-{% highlight bash %}
+```bash
 #!/bin/bash
 
 # Delete and recreate the database
@@ -27,7 +27,7 @@ psql -U postgres -h 127.0.0.1 -c 'GRANT CONNECT ON DATABASE my_database TO my_db
 
 # Run migrations to generate the schema
 knex migrate:latest
-{% endhighlight %}
+```
 
 It did finally work, but I wasn't happy with it. It was very specific to my
 environment. Plus I don't like including bash scripts in Node projects unless
@@ -39,7 +39,7 @@ at the current [Migrate](https://github.com/tgriesser/knex/blob/8a303f1a964acc98
 source to find that the API was very neat (perhaps it's improved in the past
 year). I quickly found a very simple solution.
 
-{% highlight js %}
+```js
 var migrate = knex.migrate;
 
 // Force unlock in case of a bad state
@@ -59,4 +59,4 @@ migrate.forceFreeMigrationsLock()
 .then(function(){
   return migrate.latest();
 });
-{% endhighlight %}
+```

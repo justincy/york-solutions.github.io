@@ -15,7 +15,7 @@ We need a test suite before we can generate code coverage. Our favorite testing
 framework is [Mocha ][mocha] with [Chai][chai] for assertions. A test file might
 look like this:
 
-{% highlight js %}
+```js
 var expect = require('chai').expect;
 
 describe('Array', function(){
@@ -27,28 +27,28 @@ describe('Array', function(){
     })
   })
 })
-{% endhighlight %}
+```
 
 Then in our `package.json` file we would add a test script to run with `npm test`.
 
-{% highlight js %}
+```js
 "scripts": {
   "test": "mocha"
 }
-{% endhighlight %}
+```
 
 ### Automated Testing with Travis CI
 
 We can automatically run our test suite for each commit using [Travis CI][travis].
 Sign up, add your GitHub repository, then add a `.travis.yml` file to the repo.
 
-{% highlight yaml %}
+```yaml
 language: node_js
 node_js:
 - '0.10'
 script:
 - 'npm test' # tell Travis how to run your test suite
-{% endhighlight %}
+```
 
 Every time a commit is pushed to your repository on any branch, Travis will
 automatically queue up a test runner that clones your repository, installs all
@@ -62,9 +62,9 @@ handy link for Travis. The best part is it's 100% free for public GitHub repos.
 of. It's fast, easy to use, can be installed via npm, and doesn't need to be installed
 globally. To run, just add another entry in the `package.json` scripts field.
 
-{% highlight js %}
+```js
   "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha"
-{% endhighlight %}
+```
 
 You'll notice that we have to call the mocha bin file directly. This is because
 the main mocha file forks into a child process as [explained here][mocha-fork].
@@ -81,9 +81,9 @@ Similar to how we used [Travis CI][travis] to automate our testing, we can use
 and enable your repository. This will generate a token which you need to add to a
 `.coveralls.yml` file.
 
-{% highlight yaml %}
+```yaml
 repo_token: mycoverallsrepoymltoken
-{% endhighlight %}
+```
 
 Second, you need to install the [coveralls node][coveralls-node] package. This
 allows us to send our node coverage stats to Coveralls so that they can store
@@ -91,9 +91,9 @@ and process it.
 
 Third, we need a new command in our `scripts` field:
 
-{% highlight js %}
+```js
   "coveralls": "npm run coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
-{% endhighlight %}
+```
 
 This command will run our test suite to gather coverage stats then pipe them into
 the coveralls node package which sends the stats to coveralls.
@@ -103,10 +103,10 @@ is run automatically by Travis each time a commit is pushed to our repository.
 This will still run tests and track our build status while also allowing coveralls
 to track changes to our code coverage.
 
-{% highlight yaml %}
+```yaml
 script:
 - 'npm run coveralls' # tell Travis how to run your test suite
-{% endhighlight %}
+```
 
 An option step, though one we highly recommend, is to add a coverage badge to
 your README that shows off your coverage percentage and adds a quick link to
@@ -116,13 +116,13 @@ Coveralls browsable coverage stats.
 
 Our full `scripts` field in `package.json` now looks like this:
 
-{% highlight js %}
+```js
 "scripts": {
   "test": "mocha",
   "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha",
   "coveralls": "npm run coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
 }
-{% endhighlight %}
+```
 
 Of course, you can add additional scripts. We encourage you to browse the
 documentation for [Mocha][mocha], [Travis CI][travis], [Istanbul][istanbul], 

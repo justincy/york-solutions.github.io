@@ -10,9 +10,9 @@ It is tedious to update them, especially when using minified versions with sourc
 Source maps link the minified code to the un-minified source code.
 The minified code includes a special comment which points to the source map.
 
-{% highlight js %}
+```js
 //# sourceMappingURL=/path/to/file.js.map
-{% endhighlight %}
+```
 
 The browser follows the `sourceMappingURL` to download the source map which means
 the map needs to be available. The best idea is to store the source map in the
