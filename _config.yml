@@ -13,7 +13,7 @@ github_username:
 phone: '(417) 319-4160'
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 kramdown:
   input: GFM
