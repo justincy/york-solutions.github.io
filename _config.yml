@@ -12,10 +12,6 @@ github_username:
   - 'york-solutions'
 phone: '(417) 319-4160'
 
-kramdown:
-  input: GFM
-  hard_wrap: false
-  
 ga:
   account: 'UA-61161051-1'
   
