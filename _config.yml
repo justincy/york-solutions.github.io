@@ -12,9 +12,6 @@ github_username:
   - 'york-solutions'
 phone: '(417) 319-4160'
 
-markdown: kramdown
-highlighter: rouge
-
 kramdown:
   input: GFM
   hard_wrap: false
