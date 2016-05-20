@@ -6,6 +6,10 @@
   url: justincy/d3-pedigree-examples
   description: Examples of how to create family pedigrees with D3.
 
+- name: GEDCOM X JSON Schema
+  url: https://github.com/rootsdev/gedcomx-json-schema
+  description: JSON Schema (v4) for GEDCOM X
+
 - name: fs-traversal
   url: genealogysystems/fs-traversal
   description: A JavaScript traversal framework for the FamilySearch Family Tree using the visitor pattern.

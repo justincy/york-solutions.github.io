@@ -7,21 +7,20 @@ layout: default
   <h1>Web Development in Southwest Missouri</h1>
   
   <p>{{site.description}}</p>
-
-  <h2>Portfolio</h2>
-  <div class="subtitle">A selection of projects we have worked on.</div>
-  <div class="project-list">
-    {% for project in site.data.portfolio %}
-    <div class="project">
-      <div class="project-title"><a href="{{ project.url }}" target="_blank">{{ project.name }}</a></div>
-      <a href="{{ project.url }}" target="_blank"><img class="project-thumb" src="{{ site.baseurl }}/assets/img/projects/{{ project.img }}"></a>
-      <div class="project-role">{{ project.description | markdownify }}</div>
+  
+  <h2>Technology I Love To Use</h2>
+  <div class="technologies">
+    {% for tech in site.data.technology %}
+    {% if tech.url %}<a href="{{tech.url}}" target="_blank">{% endif %}
+    <div class="tech" title="{{tech.name}}">
+      <img class="tech-icon" src="/assets/img/tech/{{tech.image}}">
     </div>
+    {% if tech.url %}</a>{% endif %}
     {% endfor %}
   </div>
-  
+
   <h2>Open Source</h2>
-  <div class="subtitle">A selection of open source projects we have contributed to.</div>
+  <div class="subtitle">A selection of open source projects I have contributed to.</div>
   <div class="libraries">
     {% for library in site.data.libraries %}
     <div class="library">

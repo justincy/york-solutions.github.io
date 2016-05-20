@@ -216,37 +216,20 @@
     margin-bottom: 30px;
 }
 
-.project-list {
-    overflow: auto;
-    margin: 0 -$spacing-unit-half;
-}
- 
-.project {
-    margin: $spacing-unit-half 0;
-    float: left;
-    width: calc(50% - #{$spacing-unit});
-    margin: $spacing-unit-half;
+.technologies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.project:nth-child(odd){
-    clear: left;
-}
-
-.project-title {
-    padding: 5px 0;
-    font-size: 20px;
-    display: none;
-}
-
-.project-thumb {
-    background-color: #fff;
-    margin-bottom: $spacing-unit-half;
-    border: 1px solid $grey-color-light;
-}
-
-@include media-query(500px) {
-    .project {
-        width: initial;
+.tech {
+    max-width: 100px;
+    flex: 1;
+    
+    .tech-name {
+        text-align: center;
+        font-size: 1.3em;
+        font-weight: 100;
     }
 }
 
