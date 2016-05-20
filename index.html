@@ -11,11 +11,9 @@ layout: default
   <h2>Technology I Love To Use</h2>
   <div class="technologies">
     {% for tech in site.data.technology %}
-    {% if tech.url %}<a href="{{tech.url}}" target="_blank">{% endif %}
     <div class="tech" title="{{tech.name}}">
       <img class="tech-icon" src="/assets/img/tech/{{tech.image}}">
     </div>
-    {% if tech.url %}</a>{% endif %}
     {% endfor %}
   </div>
 

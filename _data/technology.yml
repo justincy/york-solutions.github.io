@@ -1,5 +1,6 @@
 - name: JavaScript
   image: js.svg
+  url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
   
 - name: Node.js
   image: nodejs.png
@@ -16,3 +17,7 @@
 - name: Heroku
   image: heroku.svg
   url: https://www.heroku.com
+  
+- name: Google Chrome
+  image: chrome.png
+  url: https://www.google.com/chrome/
