@@ -30,6 +30,15 @@ Add this line to your `composer.json` require list:
 That's a special composer syntax for [platform packages](https://getcomposer.org/doc/02-libraries.md#platform-packages).
 This informs Heroku that it should enable the PHPRedis package.
 
+You will know if Heroku recognized the platform package by seeing an entry in
+your build log that looks like this:
+
+```
+-----> Installing platform packages...
+       - php (5.6.24)
+       - ext-redis (2.2.7)
+```
+
 Locally, you'll have to install Redis yourself or use regular PHP sessions. If
 you choose not to install Redis locally then you can use the `--ignore-platform-reqs`
 flag when running `composer update` and `composer install`, otherwise Composer
