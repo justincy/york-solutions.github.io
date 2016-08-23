@@ -20,8 +20,5 @@ phone: '(417) 319-4160'
 ga:
   account: 'UA-61161051-1'
   
-disqus:
-  shortname: 'yorksolutions'
-  
 gems:
   - jekyll-seo-tag
