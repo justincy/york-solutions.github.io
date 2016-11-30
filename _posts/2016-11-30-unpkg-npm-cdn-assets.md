@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "unpkg - CDN for npm packages"
+title: "unpkg - A CDN for npm packages"
 date: 2016-11-30
 ---
 
