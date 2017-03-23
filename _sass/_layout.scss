@@ -204,37 +204,49 @@
 /**
  * Home page
  */
+
+.section {
+    margin-top: $spacing-unit * 2.5;
+}
  
 .home h2 {
     margin-top: $spacing-unit;
 }
  
 .subtitle {
-    color: #777;
+    color: $text-light-color;
     font-size: 16px;
     margin-top: -15px;
     margin-bottom: 30px;
 }
 
-.technologies {
+.clients-title {
+    text-align: center;
+    color: $text-light-color;
+}
+
+.clients-list {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 2em;
 }
 
-.tech {
-    width: 100px;
-    margin: 1em;
-    
-    .tech-name {
-        text-align: center;
-        font-size: 1.3em;
-        font-weight: 100;
-    }
+.client {
+    text-align: center;
     
     img {
-        width: 100px;
+        width: 150px;
+        transition: .4s;
+        border-radius: 5px;
+        box-shadow: 0px 1px 3px #aaa;
+    }
+    
+    &:hover {
+        img {
+            box-shadow: 0px 4px 4px #aaa;
+        }
     }
 }
 

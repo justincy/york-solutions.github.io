@@ -11,10 +11,11 @@ $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
-$spacing-unit-half: 15px;
+$spacing-unit:        30px;
+$spacing-unit-half:   $spacing-unit / 2;
 
 $text-color:       #111;
+$text-light-color: #777;
 $background-color: #1a1a1a;
 $header-color:     #f0f0f0;
 $body-color:       #fafafa;

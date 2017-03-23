@@ -4,31 +4,35 @@ layout: default
 
 <div class="home">
 
-  <h1>Web Development in Southwest Missouri</h1>
+  <h1>{{site.subtitle}}</h1>
   
-  <p>{{site.description}}</p>
-  
-  <h2>Technology I Love To Use</h2>
-  <div class="technologies">
-    {% for tech in site.data.technology %}
-    <div class="tech" title="{{tech.name}}">
-      <img class="tech-icon" src="/assets/img/tech/{{tech.image}}">
+  <div class="section">
+    <h2 class="clients-title">Some of Our Happy Customers</h2>
+    <div class="clients-list">
+      {% for client in site.data.clients %}
+      <div class="client" title="{{client.name}}">
+        <a href="{{client.url}}" target="_blank">
+          <img class="client-icon" src="/assets/img/clients/{{client.image}}">
+        </a>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 
-  <h2>Open Source</h2>
-  <div class="subtitle">A selection of open source projects I have contributed to.</div>
-  <div class="libraries">
-    {% for library in site.data.libraries %}
-    <div class="library">
-      <img class="github-mark" src="/assets/img/GitHub-Mark-32px.png">
-      <div class="library-name">
-        <a href="https://github.com/{{library.url}}" target="_blank">{{library.name}}</a>
+  <div class="section">
+    <h2>Open Source</h2>
+    <div class="subtitle">A selection of open source projects I have contributed to.</div>
+    <div class="libraries">
+      {% for library in site.data.libraries %}
+      <div class="library">
+        <img class="github-mark" src="/assets/img/GitHub-Mark-32px.png">
+        <div class="library-name">
+          <a href="https://github.com/{{library.url}}" target="_blank">{{library.name}}</a>
+        </div>
+        <p class="library-description">{{library.description}}</p>
       </div>
-      <p class="library-description">{{library.description}}</p>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 
 </div>

@@ -1,0 +1,15 @@
+- name: WikiTree
+  image: wikitree.jpg
+  url: https://www.wikitree.com
+  
+- name: Kindex
+  image: kindex.png
+  url: https://kindex.org
+  
+- name: RootsFinder
+  image: rootsfinder.jpg
+  url: https://www.rootsfinder.com
+  
+- name: Find-A-Record
+  image: findarecord.png
+  url: https://www.findarecord.com
