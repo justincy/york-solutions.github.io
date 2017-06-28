@@ -132,73 +132,87 @@
     margin-left: 0;
     list-style: none;
 
-    > li {
-        margin-bottom: $spacing-unit;
+    .post-title {
+        margin-bottom: 0;
     }
 }
 
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+.blog {
+
+    .post-list {
+    
+        > li {
+            padding: $spacing-unit 0;
+            border-top: 1px solid #ddd;
+        }
+        
+    }
+    
+    .post-meta {
+        font-size: $small-font-size;
+        color: $grey-color;
+    }
+    
+    .post-link {
+        display: block;
+        font-size: 24px;
+    }
+
 }
-
-.post-link {
-    display: block;
-    font-size: 24px;
-}
-
-
 
 /**
  * Posts
  */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
+.post {
+ 
+    .post-header {
+        margin-bottom: $spacing-unit;
     }
-}
-
-.post-content {
-    margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-
+    
+    .post-title {
+        font-size: 42px;
+        letter-spacing: -1px;
+        line-height: 1;
+    
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: 36px;
         }
     }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
+    
+    .post-content {
+        margin-bottom: $spacing-unit;
+    
+        h2 {
+            font-size: 32px;
+    
+            @include media-query($on-laptop) {
+                font-size: 28px;
+            }
+        }
+    
+        h3 {
+            font-size: 26px;
+    
+            @include media-query($on-laptop) {
+                font-size: 22px;
+            }
+        }
+    
+        h4 {
+            font-size: 20px;
+    
+            @include media-query($on-laptop) {
+                font-size: 18px;
+            }
         }
     }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
+    
+    .footnotes {
+        border-top: 1px dashed #999;
+        padding-top: $spacing-unit;
+        font-size: small;
+        margin-top: $spacing-unit;
     }
-}
-
-.footnotes {
-    border-top: 1px dashed #999;
-    padding-top: $spacing-unit;
-    font-size: small;
-    margin-top: $spacing-unit;
 }
 
 /**

@@ -16,6 +16,19 @@ layout: default
     </div>
     {% endfor %}
   </div>
+  
+  <h2>Latest Blog Posts</h2>
+  <ul class="post-list">
+    {% for post in site.posts limit:3 %}
+      <li>
+        <h3 class="post-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+    <a href="/blog">All Blog Posts</a>
+  </ul>
 
   <h2>Open Source</h2>
   <div class="subtitle">A selection of open source projects I have contributed to.</div>
